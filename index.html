@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" type="image/x-icon" href="./Assets/html.4.png">
+    <title>ლექცია 1</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row  justify-between">
+                <div class="logo">
+                    <p>Sold</p>
+                </div>
+                <!--navigation-->
+                <nav class="nav_container">
+                    <ul class="nav_link">
+                        <li a href ="#">
+                            Home
+                        </li>
+                        <li>
+                            About
+                        </li>
+                        <li>
+                            New
+                        </li>
+                        <li>
+                            Blog
+                        </li>
+                        <li>
+                            Contact
+                        </li>
+                    </ul>
+                </nav>
+                <div class="btn-container">
+                    <div class="row">
+                        <button class="Seconder_btn">Login in</button>
+                        <button class="primary_btn">Get started</button>
+                          <!--open menu-->
+                         <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>                      
+                    <!--open menu end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section  class="about">
+            <div class="main">
+                <img src="./Assets/html.4.png" alt="">
+                <div class="about-text">
+                    <h1>About As</h1>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe error quia consequuntur repellendus, impedit doloremque aut magnam cumque, 
+                    tenetur iure eum quis totam iusto laudantium reprehenderit, nobis fuga autem commodi!</p>
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+        <!--blog-->
+        <section>
+            <div class="container">
+              <header>
+                <h1>Our Blog</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laborum, officia delectus corrupti modi natus?</p>
+              </header>
+        
+              <main>
+                <div class="singleBlog">
+                  <img src="./Assets/HTML.1.png" alt="">
+                  <div class="blogContent">
+                    <h3>A Chair of Million <span>Art</span></h3>
+                    <p>By <a href="#">Jhon Doe</a> | <a href="#">Nov 21, 2018</a></p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+                <div class="singleBlog">
+                  <img src="./Assets/download.png" alt="">
+                  <div class="blogContent">
+                    <h3>A Chair of Million <span>Photography</span></h3>
+                    <p>By <a href="#">Jhon Doe</a> | <a href="#">Nov 21, 2018</a></p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+                <div class="singleBlog">
+                  <img src="./Assets/HTML.2png.jpg" alt="">
+                  <div class="blogContent">
+                    <h3>A Chair of Million <span>Design</span></h3>
+                    <p>By <a href="#">Jhon Doe</a> | <a href="#">Nov 21, 2018</a></p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+                <div class="singleBlog">
+                  <img src="./Assets/logo-loader.png" alt="">
+                  <div class="blogContent">
+                    <h3>A Chair of Million <span>Life</span></h3>
+                    <p>By <a href="#">Jhon Doe</a> | <a href="#">Nov 21, 2018</a></p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+              </main>
+            </div>
+            </div>
+        </div>
+    </header>
+    <script src="./script.js/script.js"></script>
+</body>
+</html>
